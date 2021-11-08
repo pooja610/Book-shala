@@ -1,4 +1,4 @@
-package com.quaap.bookymcbookface;
+package com.group20.bookshala;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -51,18 +51,7 @@ import java.util.List;
 import com.quaap.bookymcbookface.book.Book;
 import com.quaap.bookymcbookface.book.BookMetadata;
 
-/**
- * Copyright (C) 2017   Tom Kliethermes
- *
- * This file is part of BookyMcBookface and is is free software; you can redistribute it and/or
- * modify it under the terms of the GNU General Public License as published by the
- * Free Software Foundation; either version 3 of the License, or (at your option) any
- * later version.
- *
- * This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
- * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
- * See the GNU General Public License for more details.
- */
+
 
 public class BookListActivity extends AppCompatActivity {
 
@@ -76,9 +65,9 @@ public class BookListActivity extends AppCompatActivity {
     private static final int STARTOPEN = 2;
     private static final int STARTALL = 3;
 
-    private static final String ACTION_SHOW_OPEN = "com.quaap.bookymcbookface.SHOW_OPEN_BOOKS";
-    private static final String ACTION_SHOW_UNREAD = "com.quaap.bookymcbookface.SHOW_UNREAD_BOOKS";
-    public static final String ACTION_SHOW_LAST_STATUS = "com.quaap.bookymcbookface.SHOW_LAST_STATUS";
+    private static final String ACTION_SHOW_OPEN = "com.group20.bookshala.SHOW_OPEN_BOOKS";
+    private static final String ACTION_SHOW_UNREAD = "com.group20.bookshala.SHOW_UNREAD_BOOKS";
+    public static final String ACTION_SHOW_LAST_STATUS = "com.group20.bookshala.SHOW_LAST_STATUS";
 
     private SharedPreferences data;
 
