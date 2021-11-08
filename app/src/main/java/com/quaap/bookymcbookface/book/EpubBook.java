@@ -1,4 +1,4 @@
-package com.group20.bookshala.book;
+package com.quaap.bookshala.book;
 
 
 import android.content.Context;
